@@ -1,15 +1,26 @@
 {
-  "name": "jscompress",
+  "name": "jsoncompress",
   "version": "1.0.0",
-  "description": "",
+  "description": "Crams json into a smaller footprint and unpacks it.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Sem Postma",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LesterGallagher/jsoncram"
+  },
+  "homepage": "https://github.com/LesterGallagher/jsoncram",
+  "keywords": [
+    "json",
+    "javascript",
+    "compress",
+    "pack",
+    "cram"
+  ],
   "devDependencies": {
-    "brotli": "^1.3.2",
     "google-closure-compiler": "^20181125.0.1",
     "gulp": "^3.9.1",
     "gulp-size": "^3.0.0",
