@@ -1,1 +1,1 @@
-window['jsonCram'] = require('../index.js');
+window['jsoncram'] = require('../index.js');
