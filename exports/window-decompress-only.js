@@ -1,1 +1,1 @@
-window['jsonDecompress'] = require('../lib/decompress.js');
+window['jsonCram'] = require('./decompress-only.js');

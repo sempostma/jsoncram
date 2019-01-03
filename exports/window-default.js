@@ -1,1 +1,1 @@
-window['jsonCompress'] = require('../index.js');
+window['jsonCram'] = require('../index.js');
