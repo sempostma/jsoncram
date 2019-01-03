@@ -1,0 +1,1 @@
+window['jsonCompress'] = require('../index.js');

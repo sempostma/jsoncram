@@ -12,10 +12,7 @@
             "args": [
                 "-i"
             ],
-            "internalConsoleOptions": "openOnSessionStart",
-            "outFiles": [
-                "${workspaceRoot}/dist/**/*"
-            ]
+            "internalConsoleOptions": "openOnSessionStart"
         }
     ]
 }

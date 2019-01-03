@@ -1,0 +1,1 @@
+window['jsonDecompress'] = require('../lib/decompress.js');

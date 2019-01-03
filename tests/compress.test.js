@@ -5,6 +5,8 @@ const json = require('./testjson.json');
 test('compresses json to a smaller footprint', () => {
     const result = compress(json, schema);
 
+    console.log(JSON.stringify(result, null, 4));
+
     const before = JSON.stringify(json).length;
     const after = JSON.stringify(result).length;
 
@@ -25,7 +27,6 @@ test('compress and decompress number and get the same output', () => {
     };
     const json = 'Hello World';
     const compressed = compress(json, schema);
-    console.log(compressed);
     const decompressed = decompress(compressed, schema);
     expect(json).toEqual(decompressed);
 });

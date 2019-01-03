@@ -1,4 +1,4 @@
 module.exports = {
-    compress: require('./compress.js'),
-    decompress: require('./decompress.js'),
+    compress: require('./lib/compress.js'),
+    decompress: require('./lib/decompress.js'),
 };
