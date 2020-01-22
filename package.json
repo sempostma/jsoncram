@@ -1,6 +1,6 @@
 {
   "name": "jsoncram",
-  "version": "1.0.1",
+  "version": "2.0.1",
   "description": "Crams json into a smaller footprint and unpacks it.",
   "main": "index.js",
   "scripts": {

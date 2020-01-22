@@ -22,7 +22,7 @@ test('compress and decompress string and get the same output', () => {
 
 test('compress and decompress number and get the same output', () => {
     const schema = {
-        "type": "strimg",
+        "type": "string",
         "title": "The String Schema",
     };
     const json = 'Hello World';
