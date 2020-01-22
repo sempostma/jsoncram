@@ -22,6 +22,15 @@
           false
         ]
       },
+      "isActive": {
+        "$id": "/properties/checked",
+        "type": "boolean",
+        "title": "Is Active",
+        "default": true,
+        "examples": [
+          true
+        ]
+      },
       "dimensions": {
         "$id": "/properties/dimensions",
         "type": "object",

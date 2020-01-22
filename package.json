@@ -24,6 +24,7 @@
     "google-closure-compiler": "^20181125.0.1",
     "gulp": "^3.9.1",
     "gulp-size": "^3.0.0",
-    "jest": "^23.6.0"
+    "jest": "^23.6.0",
+    "json-schema-generator": "^2.0.6"
   }
 }
