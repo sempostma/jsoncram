@@ -38,7 +38,7 @@ test('compress and decompress string and get the same output', () => {
     const json = require('./testjson.json');
     const compressed = compress(json, schema);
     const decompressed = decompress(compressed, schema);
-    expect(json).toEqual(decompressed);
+    expect(decompressed).toEqual(json);
 });
 
 test('compress and decompress number and get the same output', () => {
@@ -49,8 +49,16 @@ test('compress and decompress number and get the same output', () => {
     const json = 'Hello World';
     const compressed = compress(json, schema);
     const decompressed = decompress(compressed, schema);
-    expect(json).toEqual(decompressed);
+    expect(decompressed).toEqual(json);
 });
 
+
+test('compress and decompress with an incomplete schema', () => {
+    const schema = require('./incomplete-schema.json')
+    const json = require('./incomplete.json')
+    const compressed = compress(json, schema);
+    const decompressed = decompress(compressed, schema);
+    expect(decompressed).toEqual(json);
+});
 
 
